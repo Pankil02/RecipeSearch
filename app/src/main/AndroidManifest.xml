@@ -15,6 +15,9 @@
         android:theme="@style/Theme.RecipeSearch"
         tools:targetApi="31">
         <activity
+            android:name=".RecipeFavorites"
+            android:exported="false" />
+        <activity
             android:name=".RecipeSummary"
             android:exported="false" />
         <activity
